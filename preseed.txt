@@ -324,7 +324,7 @@ d-i partman/confirm_nooverwrite boolean true
 
 # Individual additional packages to install
 #d-i pkgsel/include string openssh-server build-essential
-d-i pkgsel/include string openssh-server emacs-nox git haskell-stack libtinfo-dev zlib1g-dev htop rsync
+d-i pkgsel/include string openssh-server emacs-nox git haskell-stack libtinfo-dev zlib1g-dev htop rsync ed
 # Whether to upgrade packages after debootstrap.
 # Allowed values: none, safe-upgrade, full-upgrade
 #d-i pkgsel/upgrade select none
